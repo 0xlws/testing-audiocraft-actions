@@ -26,7 +26,3 @@ jobs:
           make api_docs
           git add -f api_docs
           git commit -m api_docs
-
-      - name: Push branch
-        run: |
-          git push -f -u origin gh-docs
